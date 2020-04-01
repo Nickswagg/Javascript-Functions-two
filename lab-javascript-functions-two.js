@@ -43,6 +43,8 @@ var slideShow = {
         clearInterval(this.playInterval);
     },
     }
+
+//console.log(slideShow.getCurrentPhoto());    
 console.log(slideShow.getCurrentPhoto());
 slideShow.nextPhoto();
 console.log(slideShow.nextPhoto()); 
