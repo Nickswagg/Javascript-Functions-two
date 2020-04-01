@@ -5,7 +5,7 @@ var slideshow = {
     currentPhotoIndex : 0,
  
     // Next Function
-   nextPhoto(){
+   function nextPhoto(){
  
        if (this.currentPhotoIndex < this.photoList.length) {
  
@@ -20,7 +20,7 @@ var slideshow = {
    },
  
    // Previous Function
-   prevPhoto(){
+   function prevPhoto(){
  
        if ( this.currentPhotoIndex > 0) {
  
@@ -35,7 +35,7 @@ var slideshow = {
    },
  
    // Get Current Photo
-   getCurrentPhoto(){
+   function getCurrentPhoto(){
        console.log(this.photoList[this.currentPhotoIndex]); 
        return this.photoList[this.currentPhotoIndex];
    },
